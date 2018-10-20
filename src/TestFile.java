@@ -14,8 +14,8 @@ import java.io.IOException;
  */
 public class TestFile {
     public static void main(String[] args) throws FileNotFoundException {
-        //DocumentParser doc = new TSVParser(("sample_us.tsv"));
-        DocumentParser doc = new TSVParser(("sample_us_edited.tsv"));
+        DocumentParser doc = new TSVParser(("sample_us.tsv"));
+        //DocumentParser doc = new TSVParser(("sample_us_edited.tsv"));
         //DocumentParser doc = new TSVParser(("amazon_reviews_us_Watches_v1_00.tsv"));
         Tokenizer_Improved tokenizer=new Tokenizer_Improved();
         ((TSVParser) doc).setTokenizer(tokenizer);

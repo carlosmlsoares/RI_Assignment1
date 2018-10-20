@@ -14,6 +14,7 @@ public class Tokenizer_Improved {
     }
 
     public Set<String> getAllTokens() {
+        System.out.println("TOKEN SIZE: "+allTokens.size());
         return allTokens;
     }
 
